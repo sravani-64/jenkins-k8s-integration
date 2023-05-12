@@ -7,7 +7,7 @@ pipeline {
     }
 
     stages {
-        stage('gitcheckoutcode) {
+        stage('gitcheckoutcode') {
             steps {
                 // Get some code from a GitHub repository
                 git 'https://github.com/sravani-64/jenkins-k8s-integration.git'
